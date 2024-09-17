@@ -1,0 +1,11 @@
+# IDE files
+.idea
+
+# Environment variables
+.env
+
+# Cache
+**/__pycache__/**
+
+# Temporary data files
+data/
