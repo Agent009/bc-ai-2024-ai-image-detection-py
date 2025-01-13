@@ -34,7 +34,7 @@ def image_operation(image=None, op="classify", checkpoint="google/owlv2-base-pat
 
     # Receive the list of objects to detect as user input
     # The list of words must be separated by single spaces
-    labels = input("Enter the labels you want to detect: ").split(" ")
+    labels = input(f"Enter the labels you want to {op}: ").split(" ")
     # Run the pipeline and get the results
     predictions = detector(
         image,
